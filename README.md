@@ -6,12 +6,14 @@ The Auth class abstracts the complexity and encapsulates the methods into a sing
 
 # Getting Started
 
- 1. Import ***auth.dart*** file into your Flutter Project
+ 1. Add ***firebase_auth*** to your pubspec.yaml file
  
- 2. Create an object for the BaseAuth class :
+ 2. Import ***auth.dart*** file into your Flutter Project
+ 
+ 3. Create an object for the BaseAuth class :
      `BaseAuth auth`
  
- 3. Call the methods using the object within ***initState()*** method 
+ 4. Call the methods using the object within ***initState()*** method 
     
    ```
 BaseAuth auth;
